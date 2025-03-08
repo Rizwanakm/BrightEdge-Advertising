@@ -1,0 +1,42 @@
+/* Apply Updated Background Image */
+body {
+    background-image: url('images/4791806.jpg'); /* New Background Image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Makes text readable */
+}
+
+/* Hero Section */
+.hero-section {
+    background: rgba(30, 58, 95, 0.8); /* Dark Blue overlay */
+    padding: 50px 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1E3A5F !important; /* Dark Blue */
+}
+
+/* Card Styling */
+.card {
+    background: rgba(30, 58, 95, 0.9); /* Dark Blue */
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #4A90E2; /* Light Blue */
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #357ABD; /* Slightly darker blue */
+}
+
+/* Form Styling */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
